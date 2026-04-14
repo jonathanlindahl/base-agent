@@ -30,12 +30,6 @@ If you use a tool, you MUST response EXACTLY in this format:
 TOOL: <tool_name>
 INPUT: <input>
 
-Rules:
-- Do not add ANY explanation or extra text.
-- NEVER create extra questions
-- NEVER create user inputs
-- NEVER repeat the same questions
-
 Available tools:
 - calculator
 

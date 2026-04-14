@@ -15,7 +15,7 @@ struct Response {
 pub async fn call_llm(prompt: &str) -> anyhow::Result<String> {
     let client = reqwest::Client::new();
     let body = RequestBody {
-        model: "tinyllama".to_string(),
+        model: "phi3:mini".to_string(),
         prompt: prompt.to_string(),
         stream: false,
     };
